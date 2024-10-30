@@ -1,0 +1,77 @@
+<!--
+	This file is called in ../coupon_code_chocolate_factory.php, which is the main file for the plugin.
+	It instantiates the javascript functions established in the jquery folder for the datepicker, show/hide for the edit form, and the form validation.
+	It is called in the html header.
+	Because we are in wordpress, we can't use the '$' shorthand for 'jQuery'
+-->
+
+<!--
+	Datepicker:  One for each date field.  There are two in the insert form and two in the edit form.
+-->
+
+<script type="text/javascript">
+	jQuery(function() {
+		jQuery('#popupDatepicker1').datepick();
+		jQuery('#popupDatepicker2').datepick();
+		jQuery('#insert').validate();
+		jQuery('#popupDatepicker3').datepick();
+		jQuery('#popupDatepicker4').datepick();
+		jQuery('#update').validate();
+
+	});
+
+	function showDate(date) {
+		alert('The date chosen is ' + date);
+	}
+</script>
+
+
+
+<!--Form Validation:  Again, also in both update and insert-->
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#insert').validate();
+		jQuery('#update').validate();
+	});
+</script>
+
+
+
+<!--show/hide-->  
+<script type="text/javascript">
+	<!--
+		// this tells jquery to run the function below once the DOM is read
+		jQuery(document).ready(function() {
+
+			// choose text for the show/hide link
+			var showText="edit";
+			var hideText="hide";
+
+			// append show/hide links to the element directly preceding the element with a class of "toggle"
+			jQuery(".toggle").prev().append('<a href="#" class="toggleLink">'+showText+'</a>');
+
+			// hide all of the elements with a class of 'toggle'
+			jQuery('.toggle').hide();
+
+			// capture clicks on the toggle links
+			jQuery('a.toggleLink').click(function() {
+
+				// change the link depending on whether the element is shown or hidden
+				if (jQuery(this).html()==showText) {
+					jQuery(this).html(hideText);
+				}
+				else {
+					jQuery(this).html(showText);
+				}
+
+				// toggle the display
+				jQuery(this).parent().next('.toggle').toggle('slow');
+
+				// return false so any link destination is not followed
+				return false;
+
+			});
+		});
+
+	//-->
+</script>

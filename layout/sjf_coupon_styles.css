@@ -1,0 +1,169 @@
+/*universals*/
+
+	/*the major blocks of content all have these rounded corners*/
+	.round{
+		-moz-border-radius: 6px;
+		webkit-border-radius: 6px;
+		border-radius: 6x;
+	}
+	
+/*end universals*/
+
+
+
+/*forms*/
+	
+	/*the 'add condtions' area in the 'add a new coupon' form*/
+	#conditions {clear: left; float: left;}
+
+	fieldset {float: left; margin:10px}
+
+	#apply_all {float: left;}
+	
+	/*groups of form inputs that will appear on the same line*/
+	.group {clear: left; float: left;}
+
+	
+	form.main {
+		padding: 10px;
+		border: 1px solid #e3e3e3;
+		background: #f1f1f1;
+		min-width: 800px;
+		width: 98%;
+		margin: 0px;
+		margin-bottom: 30px;
+		clear: both;
+		float: left;
+	}
+
+	/*the familiar, rounded, dark blue buttons found elsewhere in wp admin*/
+	.button-primary {
+		clear: left;
+		float: left;
+		margin: 10px;
+	}
+
+	/*the list of hints at the top of the page*/
+	.hints {list-style: disc inside;}
+
+/*end forms*/
+
+
+
+/*result table*/
+
+	/*the table that displays coupons at the bottom of the page*/
+	/*I can't figure out why the border isn't displaying on the right and bottom of the white rows.*/
+	.result_table{
+		clear: both;
+		width: 100%;
+		background: #f1f1f1;
+		text-align:center;
+		border-collapse:collapse;
+		margin-bottom: 30px;
+		position: relative;
+		border: 1px solid #e3e3e3;
+	}
+	
+	/*these appear at the top and bottom of the table.*/
+	.result_table thead th, .result_table tfoot th{
+		padding: 5px;
+		font-weight:bold;
+	}
+
+	/*we need this because the edit menu is positioned asbolutely*/
+	.result_table tr {position: relative;}
+
+	.result_table tbody td{
+		padding:5px;
+	}
+	
+	/*view_coupons.php generates the odd_number class name*/
+	.odd_number {background: white}
+
+	/*these rounded corners are hard to see because the border doesn't round--just the background.  This is a problem.*/
+	.top_left {
+		-webkit-border-top-left-radius:6px;
+		-moz-border-radius-topleft:6px;
+		border-top-right-radius:6px;
+	}
+	.bottom_left {
+		-webkit-border-bottom-left-radius:6px;
+		-moz-border-radius-bottomleft:6px;
+		border-bottom-left-radius:6px;
+	}
+	.top_right {
+		-webkit-border-top-right-radius:6px;
+		-moz-border-radius-topright:6px;
+		border-top-right-radius:6px;
+	}
+	.bottom_right {
+		-webkit-border-bottom-right-radius:6px;
+		-webkit-border-bottom-right-radius:6px;
+		-moz-border-radius-bottomright:6px;
+		border-bottom-right-radius:6px;
+	}
+
+	/*called by a javascript onClick*/
+	div.edit_coupon{
+		position: absolute;
+		z-index: 99;
+		right: 20px;
+		width: 640px;
+		padding: 10px;
+		border: 1px solid #e3e3e3;
+		background: #f1f1f1;
+		margin: 0px;
+		clear: both;
+		float: left;
+		-moz-box-shadow: 0px 0px 8px black;
+		-webkit-box-shadow:0px 0px 8px black;
+		-moz-box-shadow:0px 0px 8px black;
+		min-width: 0 !important;
+	}
+
+	/*instead of using an image*/
+	.delete_button{
+		color: red !important;
+		font-weight:bold !important;
+		font-size: 19px !important;
+		text-transform: uppercase !important;
+		text-shadow: 0px 0px 2px black !important;
+		border: none !important;
+		background: transparent !important;
+	}
+
+	.delete_button:hover{
+		cursor: pointer;
+		color: #8f0006 !important;
+	}
+
+	table.view_conditions {
+		background: white;
+		border: 1px solid #e3e3e3;
+		float: left;
+		clear: both
+	}
+	
+	/*the row of links and text at the top of the table*/
+	.table_nav p {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.pagination {
+		float: left;
+		margin: 0;
+		padding: 0;
+		margin-left: 40px;
+		position: relative;
+		top: .3em;
+	}
+	.pagination li {
+		float: left;
+		display: inline;
+		margin-right: 5px;
+	}
+		
+	input.coupons_per_page {width: 50px;}
+/*end results table*/

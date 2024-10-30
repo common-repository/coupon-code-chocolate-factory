@@ -1,0 +1,94 @@
+[05-Mar-2011 13:08:14] PHP Parse error:  syntax error, unexpected '/' in /home/scottfen/public_html/query_gen/query_gen.php on line 83
+[05-Mar-2011 13:08:17] PHP Parse error:  syntax error, unexpected '/' in /home/scottfen/public_html/query_gen/query_gen.php on line 83
+[05-Mar-2011 13:42:12] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/scottfen/public_html/query_gen/query_gen.php on line 20
+[05-Mar-2011 13:42:30] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 16
+[05-Mar-2011 13:44:20] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 16
+[05-Mar-2011 13:45:18] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/scottfen/public_html/query_gen/query_gen.php on line 9
+[05-Mar-2011 13:45:24] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/scottfen/public_html/query_gen/query_gen.php on line 9
+[05-Mar-2011 13:46:08] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 15
+[05-Mar-2011 13:48:53] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 15
+[05-Mar-2011 13:52:45] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 15
+[05-Mar-2011 14:04:26] PHP Fatal error:  Call to undefined function  postcleaner() in /home/scottfen/public_html/query_gen/query_gen.php on line 13
+[05-Mar-2011 14:04:28] PHP Fatal error:  Call to undefined function  postcleaner() in /home/scottfen/public_html/query_gen/query_gen.php on line 13
+[05-Mar-2011 14:04:50] PHP Parse error:  syntax error, unexpected '{' in /home/scottfen/public_html/query_gen/post_cleaner.php on line 4
+[05-Mar-2011 14:05:05] PHP Parse error:  syntax error, unexpected '{' in /home/scottfen/public_html/query_gen/post_cleaner.php on line 3
+[05-Mar-2011 14:31:05] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scottfen/public_html/query_gen/query_gen.php on line 18
+[05-Mar-2011 14:31:53] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/scottfen/public_html/query_gen/query_gen.php on line 20
+[05-Mar-2011 14:59:12] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/scottfen/public_html/query_gen/query_gen.php on line 37
+[05-Mar-2011 14:59:37] PHP Parse error:  syntax error, unexpected '=' in /home/scottfen/public_html/query_gen/query_gen.php on line 65
+[05-Mar-2011 18:16:02] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 140
+[05-Mar-2011 18:22:40] PHP Fatal error:  Call to undefined function  isnumeric() in /home/scottfen/public_html/query_gen/query_gen.php on line 29
+[05-Mar-2011 18:39:05] PHP Parse error:  syntax error, unexpected T_ECHO in /home/scottfen/public_html/query_gen/query_gen.php on line 162
+[05-Mar-2011 18:40:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 161
+[05-Mar-2011 18:47:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/scottfen/public_html/query_gen/query_gen.php on line 166
+[05-Mar-2011 18:51:32] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 172
+[08-Mar-2011 23:41:31] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 161
+[09-Mar-2011 10:32:11] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 128
+[09-Mar-2011 10:54:38] PHP Parse error:  syntax error, unexpected ';' in /home/scottfen/public_html/query_gen/query_gen.php on line 159
+[09-Mar-2011 11:20:25] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/scottfen/public_html/query_gen/query_gen.php on line 76
+[09-Mar-2011 11:32:11] PHP Warning:  mysqli_affected_rows() expects exactly 1 parameter, 0 given in /home/scottfen/public_html/query_gen/query_gen.php on line 91
+[09-Mar-2011 11:59:02] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 39
+[09-Mar-2011 12:00:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 55
+[09-Mar-2011 12:00:25] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/scottfen/public_html/query_gen/query_gen.php on line 55
+[09-Mar-2011 14:03:29] PHP Fatal error:  Call to undefined function  row_count() in /home/scottfen/public_html/query_gen/query_gen.php on line 115
+[09-Mar-2011 14:07:20] PHP Fatal error:  Call to undefined function  row_count() in /home/scottfen/public_html/query_gen/query_gen.php on line 115
+[09-Mar-2011 14:09:44] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 105
+[09-Mar-2011 14:10:29] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/scottfen/public_html/query_gen/query_gen.php on line 105
+[09-Mar-2011 14:10:34] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/scottfen/public_html/query_gen/query_gen.php on line 105
+[09-Mar-2011 14:11:04] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, boolean given in /home/scottfen/public_html/query_gen/query_gen.php on line 105
+[09-Mar-2011 14:19:17] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:19:17] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:19:37] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:19:37] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:20:55] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:20:55] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:21:01] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:21:01] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:22:10] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:22:10] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:22:21] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 14:22:21] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:25:57] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 14:25:57] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 125
+[09-Mar-2011 14:30:51] PHP Parse error:  syntax error, unexpected '{' in /home/scottfen/public_html/query_gen/query_gen.php on line 125
+[09-Mar-2011 14:31:10] PHP Parse error:  syntax error, unexpected '{' in /home/scottfen/public_html/query_gen/query_gen.php on line 125
+[09-Mar-2011 14:31:24] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/scottfen/public_html/query_gen/query_gen.php on line 127
+[09-Mar-2011 15:01:21] PHP Notice:  Could not connect to MySQL: Access denied for user 'shockin5_wrd1'@'localhost' (using password: YES) in /home/scottfen/public_html/query_gen/mysqli_connect.php on line 17
+[09-Mar-2011 15:01:21] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/scottfen/public_html/query_gen/query_gen.php on line 123
+[09-Mar-2011 15:01:21] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/scottfen/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:05:49] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:05:58] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:06:41] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:08:09] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:08:23] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:11:09] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 13:11:14] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home5/shockin5/public_html/query_gen/query_gen.php on line 124
+[09-Mar-2011 17:37:46] PHP Parse error:  syntax error, unexpected '}' in /home5/shockin5/public_html/query_gen/query_gen.php on line 33
+[09-Mar-2011 18:14:50] PHP Warning:  include(../includes/bottom.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home5/shockin5/public_html/query_gen/register.php on line 110
+[09-Mar-2011 18:14:50] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../includes/bottom.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php') in /home5/shockin5/public_html/query_gen/register.php on line 110
+[09-Mar-2011 18:38:59] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home5/shockin5/public_html/query_gen/query_gen.php on line 149
+[09-Mar-2011 18:38:59] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home5/shockin5/public_html/query_gen/query_gen.php on line 150
+[09-Mar-2011 22:10:31] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home5/shockin5/public_html/query_gen/form.php on line 120
+[09-Mar-2011 22:11:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home5/shockin5/public_html/query_gen/form.php on line 124
+[09-Mar-2011 22:24:07] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '$' in /home5/shockin5/public_html/query_gen/query_gen.php on line 137
+[10-Mar-2011 08:15:27] PHP Fatal error:  Call to undefined function -_0123456789abcdefghijklmnopqrstuvwxyz() in /home5/shockin5/public_html/query_gen/query_gen.php on line 104
+[10-Mar-2011 08:33:06] PHP Fatal error:  Call to undefined function  str_rand() in /home5/shockin5/public_html/query_gen/query_gen.php on line 99
+[10-Mar-2011 08:33:44] PHP Fatal error:  Call to undefined function  str_rand() in /home5/shockin5/public_html/query_gen/query_gen.php on line 101
+[10-Mar-2011 08:34:09] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[10-Mar-2011 08:36:53] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[10-Mar-2011 08:38:10] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[10-Mar-2011 08:39:34] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[10-Mar-2011 08:39:49] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[10-Mar-2011 08:41:26] PHP Fatal error:  Cannot redeclare str_rand() (previously declared in /home5/shockin5/public_html/query_gen/random_generator.php:21) in /home5/shockin5/public_html/query_gen/random_generator.php on line 50
+[11-Mar-2011 16:36:03] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 66375681 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 25
+[11-Mar-2011 16:37:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 66344961 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 25
+[11-Mar-2011 16:40:34] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 66344961 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 25
+[11-Mar-2011 16:49:58] PHP Parse error:  syntax error, unexpected '}' in /home5/shockin5/public_html/query_gen/export_coupons.php on line 21
+[11-Mar-2011 16:54:08] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 40961 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 21
+[11-Mar-2011 16:55:34] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 40961 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 21
+[11-Mar-2011 17:01:36] PHP Fatal error:  Call to undefined function  mysqli_field_name() in /home5/shockin5/public_html/query_gen/export_coupons.php on line 12
+[11-Mar-2011 17:04:21] PHP Parse error:  syntax error, unexpected $end in /home5/shockin5/public_html/query_gen/export_coupons.php on line 45
+[11-Mar-2011 17:04:26] PHP Parse error:  syntax error, unexpected $end in /home5/shockin5/public_html/query_gen/export_coupons.php on line 45
+[11-Mar-2011 17:12:53] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 40961 bytes) in /home5/shockin5/public_html/query_gen/settings.php on line 21
+[11-Mar-2011 17:37:36] PHP Fatal error:  Call to undefined function  mysqli_field_name() in /home5/shockin5/public_html/query_gen/export_coupons.php on line 17
+[11-Mar-2011 17:39:42] PHP Fatal error:  Call to undefined function  mysqli_column_names() in /home5/shockin5/public_html/query_gen/export_coupons.php on line 17
